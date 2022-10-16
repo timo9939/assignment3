@@ -21,13 +21,20 @@ function generatePassword(){
   islowercase = confirm("Do you want to include lowercase letter?");
   isuppercase = confirm("Do you want to include uppercase letter?");
   isnumeric = confirm("Do you want to include number?");
-  isspecial = confirm("Do you want to include number?");
   isspecial = confirm("Do you want to include special character?");
 
+  if (!islowercase||!isuppercase||!isnumeric||!isspecial){
+    alert("Invalid Criteria!\nYou need to choose at least one character type")
+  }
+
+
+
+  if (islowercase ||isuppercase||isnumeric||isspecial){
   for(var i=0;i<len;i++){
     randomNumber = Math.floor(Math.random()*alphabet.length);
     password += alphabet.substring(randomNumber,randomNumber+1);
-  }
+  }}
+
 }
 
 
