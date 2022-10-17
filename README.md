@@ -13,7 +13,7 @@ This is a project of a password generator which are able to generate password ra
 6. Your password will be displayed in the box below
 
 ## ScreenShot
-![Screenshot-Assignment-3](Screenshot-assignment-3.png)
+<img src="/Screenshot-assignment-3.png" alt="Screenshot-assignment3">
 
 ## Website Link
 https://timo9939.github.io/assignment3/
