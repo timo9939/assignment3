@@ -12,8 +12,8 @@ This is a project of a password generator which are able to generate password ra
 5. Choose whether you want to contain special character in you password
 6. Your password will be displayed in the box below
 
-## ScreenShot
-<img src="/Screenshot-assignment-3.png" alt="Screenshot-assignment3">
+## Screenshot
+![screenshot-assi-3](/screenshot/Screenshot-assignment-3.PNG)
 
 ## Website Link
 https://timo9939.github.io/assignment3/
